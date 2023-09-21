@@ -8,6 +8,6 @@ public class LoginController {
 
     @GetMapping("/login")
     public String login() {
-        return "김용승님 환영합니다!";
+        return "김용승님 환영합니다!!";
     }
 }

@@ -18,6 +18,6 @@ public class LoginControllerTests {
 
     @Test
     public void loginTest() {
-        Assertions.assertEquals("김용승님 환영합니다!", loginController.login());
+        Assertions.assertEquals("김용승님 환영합니다!!", loginController.login());
     }
 }
