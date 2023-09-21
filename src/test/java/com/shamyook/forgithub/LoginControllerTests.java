@@ -18,6 +18,7 @@ public class LoginControllerTests {
 
     @Test
     public void loginTest() {
+        System.out.println("dev1 브랜치 추가");
         Assertions.assertEquals("김용승님 환영합니다!!", loginController.login());
     }
 }
